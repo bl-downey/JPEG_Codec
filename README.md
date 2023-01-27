@@ -31,7 +31,7 @@ global memory instead, an analysis of why and how it performed can be found in t
 
 ## Results
 
-The dat/ folder contains the input images used, and the CPU/GPU output versions. As shown below, the CPU/GPU versions are identical.
+The dat/ folder contains the input images used, and the CPU/GPU output versions. As shown below, the CPU/GPU versions are identical. Check out page 10 of the report to see various timing results and the speed up of the DCT and iDCT kernels when using a precomputed method to lower the register count and increase thread count!
 
 ![outimage2_cpu](https://user-images.githubusercontent.com/72525765/215004552-114647c6-db5b-4762-8536-b5665cb12493.png)
 Figure 3: CPU Version
