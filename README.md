@@ -16,7 +16,7 @@ this application. JPEG codec is well suited for GPU computing for a few reasons.
 below we see the multiple compression stages of a JPEG Encoder, and in Figure 2 we can note
 the steps of the image reconstruction via the JPEG Decoder. Because the mathematical
 process of the DCT, quantization and zig zag algorithms are repeated for all 8x8 blocks in the
-image, this brings about the opportunity for parallel processing
+image, this brings about the opportunity for parallel processing.
 
 ![image](https://user-images.githubusercontent.com/72525765/215004074-9ead30b7-ff14-4656-aecb-1e0a8550f069.png)
 
